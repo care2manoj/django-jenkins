@@ -7,6 +7,8 @@ sudo apt install virtualenv -y
 ```shell
 which python3 
 
+(pip install -U virtualenv)
+
 virtualenv venv3 -p python3
 
 source venv3/bin/activate
